@@ -83,4 +83,4 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    app.run(port=os.getenv('APP_PORT', 8080), debug=True, host="0.0.0.0")
+    app.run(port=os.getenv('APP_PORT', 8081), debug=True, host="0.0.0.0")
